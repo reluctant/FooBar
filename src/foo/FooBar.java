@@ -1,6 +1,9 @@
 package foo;
 
 pubic class FooBar {
+    private static class FooBarChild {
+        private String name;
+    }
     public static void main(String[] args) {
         if (args.length < 1) {
             return;
